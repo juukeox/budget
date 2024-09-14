@@ -1,0 +1,5 @@
+black==23.1.0
+pytest==7.4.3
+ipykernel==6.23.1
+openpyxl
+pandas
