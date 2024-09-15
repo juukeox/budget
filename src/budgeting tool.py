@@ -2,7 +2,7 @@ import pandas as pd
 from typing import List, Dict, Any
 
 # import budget.xlsx from root
-csv = pd.read_excel("budget.xlsx")
+csv = pd.read_excel("src/budget.xlsx")
 
 
 class Transaction:
@@ -118,7 +118,7 @@ def create_report(csv):
     output_df = pd.DataFrame(output_rows)
 
     # Save output_df to CSV
-    output_df.to_csv("new_budget.csv", index=False)
+    output_df.to_csv("src/new_budget.csv", index=False)
 
     return output_df
     
@@ -141,8 +141,8 @@ def create_summary(dataframe):
     summary["net_income"] = summary["total_income"] + summary["total_expense"]
 
     # Save dataframe to CSV
-    dataframe.to_csv("new_budget.csv", index=False)
-    summary.to_csv("summary.csv", index=False)
+    # dataframe.to_csv("new_budget.csv", index=False)
+    summary.to_csv("src/summary.csv", index=False)
 
 
 def handler(csv):

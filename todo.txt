@@ -1,0 +1,6 @@
+readme
+front end
+connect to chatgpt for analysis suggestion
+category suggestions
+present new spreadsheets
+turn into installable app
