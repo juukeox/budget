@@ -1,0 +1,1 @@
+For analysing and making suggestions to your budget
